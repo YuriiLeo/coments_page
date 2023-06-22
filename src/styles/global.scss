@@ -1,0 +1,23 @@
+@use 'tailwindcss';
+
+@use 'colors' as colors;
+
+body {
+    font-size: 1rem;
+    color: colors.$font-color;
+}
+
+$gradient-angle: 133deg;
+
+.wrapper {
+    $bg-color-up: map-get(colors.$bg-colors, up);
+    $bg-color-middle: map-get(colors.$bg-colors, middle);
+    $bg-color-down: map-get(colors.$bg-colors, down);
+  
+    background: $bg-color-up;
+    background: linear-gradient($gradient-angle, $bg-color-up 0%, $bg-color-middle 35%, $bg-color-down 100%);
+}
+
+.btn-shadow {
+    box-shadow: 7px 5px 5px 0 rgba(0,0,0,.4);
+}
