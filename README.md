@@ -11,13 +11,13 @@ To locally run the project, follow these steps:
 1. Install npm:
 
 ```shell
-npm npm install
+ npm install
 ```
 
 2. Start the development server:
 
 ```shell
-npm npm start
+ npm start
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
