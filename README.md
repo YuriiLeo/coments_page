@@ -10,16 +10,16 @@ When the page is first loaded, the comments are fetched and stored in the local 
 
 To locally run the project, follow these steps:
 
-1. Install npm:
+1. Install pnpm :
 
 ```shell
- npm install
+ pnpm  install
 ```
 
 2. Start the development server:
 
 ```shell
- npm start
+ pnpm  start
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
@@ -56,7 +56,7 @@ The `package.json` file includes the project's dependencies and scripts. Here ar
 To build the application for production, run the following command:
 
 ```shell
-npm run build
+pnpm  run build
 ```
 
 This will compile the application into the `build` folder.
@@ -65,8 +65,8 @@ This will compile the application into the `build` folder.
 
 The project also includes additional scripts for type-checking and linting:
 
-- `npm run type:check`: Runs type-checking using TypeScript.
-- `npm run lint`: Runs ESLint to lint the TypeScript files.
+- `pnpm  run type:check`: Runs type-checking using TypeScript.
+- `pnpm  run lint`: Runs ESLint to lint the TypeScript files.
 
 Feel free to reach out if you have any questions or need further assistance.
 
@@ -84,8 +84,8 @@ When the page is first loaded, the comments are fetched and stored in the local 
 
 To locally run the project, follow these steps:
 
-1. Install npm: `npm install`
-2. Start the development server: `npm start`
+1. Install pnpm : `pnpm  install`
+2. Start the development server: `pnpm  start`
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ## Functionality
@@ -118,26 +118,26 @@ The `package.json` file includes the project's dependencies and scripts. Here ar
 To install the project's dependencies, run the following command:
 
 ```shell
-npm install
+pnpm  install
 ```
 
 To start the development server, use:
 
 ```shell
-npm start
+pnpm  start
 ```
 
 To build the application for production, use:
 
 ```shell
-npm run build
+pnpm  run build
 ```
 
 ## Additional Scripts
 
 The project also includes additional scripts for type-checking and linting:
 
-- `npm run type:check`: Runs type-checking using TypeScript.
-- `npm run lint`: Runs ESLint to lint the TypeScript files.
+- `pnpm  run type:check`: Runs type-checking using TypeScript.
+- `pnpm  run lint`: Runs ESLint to lint the TypeScript files.
 
 Feel free to reach out if you have any questions or need further assistance.
