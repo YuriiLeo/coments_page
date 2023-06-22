@@ -7,7 +7,7 @@ type ReturnData = {
 export const useUser = (): ReturnData => {
     const currentUser: UserEntity = {
         id: 5,
-        username: 'Yurii'
+        username: 'Anonymous'
     }
 
     return { currentUser }
