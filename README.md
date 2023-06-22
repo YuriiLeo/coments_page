@@ -40,6 +40,15 @@ The page uses the following API requests:
 
 Please note that these requests are fictitious and custom handlers have been added to handle them.
 
+## Package.json
+
+The `package.json` file includes the project's dependencies and scripts. Here are some notable packages:
+
+- `axios`: Used for making HTTP requests.
+- `react-scripts`: Provides scripts for starting and building the application.
+- `tailwindcss`: A utility-first CSS framework used for styling the application.
+- `typescript`: The programming language used for the project.ED
+
 ## Build
 
 To build the application for production, run the following command:
@@ -49,5 +58,12 @@ npm run build
 ```
 
 This will compile the application into the `build` folder.
+
+## Additional Scripts
+
+The project also includes additional scripts for type-checking and linting:
+
+- `npm run type:check`: Runs type-checking using TypeScript.
+- `npm run lint`: Runs ESLint to lint the TypeScript files.
 
 Feel free to reach out if you have any questions or need further assistance.
