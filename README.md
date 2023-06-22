@@ -56,7 +56,7 @@ The `package.json` file includes the project's dependencies and scripts. Here ar
 To build the application for production, run the following command:
 
 ```shell
-pnpm  run build
+pnpm build
 ```
 
 This will compile the application into the `build` folder.
@@ -65,7 +65,7 @@ This will compile the application into the `build` folder.
 
 The project also includes additional scripts for type-checking and linting:
 
-- `pnpm  run type:check`: Runs type-checking using TypeScript.
-- `pnpm  run lint`: Runs ESLint to lint the TypeScript files.
+- `pnpm type:check`: Runs type-checking using TypeScript.
+- `pnpm lint`: Runs ESLint to lint the TypeScript files.
 
 Feel free to reach out if you have any questions or need further assistance.
